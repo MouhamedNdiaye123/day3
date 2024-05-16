@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+body{
+    background: no-repeat center/cover url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+}
+.orders{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-content{
+    margin: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+}
+.order-content img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.order-content h2{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+    margin: 20px 0;
+}
+.order-content p{
+    font-size: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+}
+.img-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+.img-price img{
+    margin-right: 15px;
+}
+
+
+span{
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 1px 0 10px hsl(245, 75%, 52%);
+    width: 70%;
+    margin: 20px;
+}
